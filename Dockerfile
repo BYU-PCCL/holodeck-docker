@@ -12,9 +12,5 @@ RUN adduser --gecos "" holodeckuser
 
 RUN echo -e "holodeck\nholodeck" > passwd holodeckuser
 
-USER holodeckuser
-
-USER root
-
 CMD ["/bin/bash"]
 
