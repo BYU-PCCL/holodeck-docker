@@ -8,8 +8,13 @@ RUN pip3 install numpy posix_ipc holodeck
 
 RUN apt-get remove -y build-essential && apt-get -y autoremove
 
-RUN adduser --disabled-password --gecos "" holodeckuser
+RUN adduser --gecos "" holodeckuser
+
+RUN echo -e "holodeck\nholodeck" > passwd holodeckuser
 
 USER holodeckuser
 
-CMD ["python3"]
+USER root
+
+CMD ["/bin/bash"]
+
