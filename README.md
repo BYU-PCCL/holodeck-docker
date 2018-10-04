@@ -1,6 +1,6 @@
 # holodeck-docker
 
-### Contains Dockerfiles for running holodeck on headless machines with GPU accelerated rendering. 
+#### Contains Dockerfiles for running holodeck on headless machines with GPU accelerated rendering. 
 
 * Ubuntu16.04 version requires cuda 9.0
 * Ubuntu18.04 version requires cuda 10.0
