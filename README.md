@@ -4,7 +4,7 @@
 
 Requirements:
 * Ubuntu16.04 version requires cuda 9.0
-* Ubuntu18.04 version requires cuda 10.0
+* Ubuntu18.04 version requires cuda 9.2
 * Nvidia-docker must be installed 
 * Holodeck must be run as a non-root user (enabled by default in holodeck-docker) 
 
