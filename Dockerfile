@@ -12,4 +12,6 @@ RUN adduser --disabled-password --gecos "" holodeckuser
 
 USER holodeckuser
 
+RUN python3 -c 'import holodeck; holodeck.install("DefaultWorlds")'
+
 CMD ["python3"]
